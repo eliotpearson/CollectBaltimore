@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="geodataEGISDATAbaltcityAREA" type="float"></SimpleField>
+	<SimpleField name="PERIMETER" type="float"></SimpleField>
+	<SimpleField name="ACRES" type="float"></SimpleField>
+	<SimpleField name="HECTARES" type="float"></SimpleField>
+	<SimpleField name="Shape_Leng" type="float"></SimpleField>
+	<SimpleField name="created_user" type="string"></SimpleField>
+	<SimpleField name="created_date" type="string"></SimpleField>
+	<SimpleField name="last_edited_user" type="string"></SimpleField>
+	<SimpleField name="last_edited_date" type="string"></SimpleField>
+	<SimpleField name="ShapeSTArea" type="float"></SimpleField>
+	<SimpleField name="ShapeSTLength" type="float"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="geodataEGISDATAbaltcityAREA">2562713392.43</SimpleData>
+		<SimpleData name="PERIMETER">207126.51302</SimpleData>
+		<SimpleData name="ACRES">58831.804</SimpleData>
+		<SimpleData name="HECTARES">23808.482</SimpleData>
+		<SimpleData name="Shape_Leng">207126.513062</SimpleData>
+		<SimpleData name="ShapeSTArea">2562713385.50348</SimpleData>
+		<SimpleData name="ShapeSTLength">207126.513062</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.711295892445079,39.371964923459274 -76.529676400720234,39.371979799608795 -76.52986045665007,39.209630820338198 -76.549727473807962,39.197241314436212 -76.583675299071061,39.208128396534754 -76.611612941602687,39.234402416501347 -76.711163565712425,39.277846370577045 -76.711295892445079,39.371964923459274</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
